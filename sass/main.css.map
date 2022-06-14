@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": ";ACAA,cAAc;AACd,AAAA,WAAW,CAAC;EACR,MAAM,EAAE,KAAK;CAChB;;AACD,AAAA,WAAW,CAAC;EACR,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CACf;;ACPD,eAAe;AACd,AAAA,QAAQ,CAAC;EACN,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,SAAS;EAChC,kBAAkB,EAAE,SAAS;EAC7B,SAAS,EAAE,yEACwC;CAsBlD;;AArBC,AAAD,iCAA0B,CAAC;EACxB,SAAS,EAAE,cAAe;EAC1B,MAAM,EAAE,KAAK;CAChB;;AAEC,AAAD,0BAAmB,CAAC;EACjB,SAAS,EAAE,gBAAiB;EAC5B,OAAO,EAAE,IAAI;CAChB;;AAEC,AAAD,+BAAwB,CAAC;EACtB,SAAS,EAAE,qBAAqB;EAChC,OAAO,EAAE,IAAI;CAChB;;AAEC,AAAD,8BAAuB,CAAC;EACrB,SAAS,EAAE,aAAa;EACxB,OAAO,EAAE,IAAI;CAChB",
     "sources": [
         "main.scss",
-        "_navbar.scss"
+        "partials/_navbar.scss",
+        "partials/_section.scss"
     ],
     "names": [],
     "file": "main.css"
