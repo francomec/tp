@@ -2,42 +2,36 @@
 /*~ navbar ~*/
 .tamaño-nav {
   height: 105px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: fixed;
 }
 
 .tamaño-img {
   height: 100px;
   width: 100px;
+  background-size: auto;
 }
 
 /*~ section ~*/
-#section {
-  background-color: aqua;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  -ms-grid-rows: auto auto;
-      grid-template-rows: auto auto;
-  grid-area: "campo-deportes macabi-semuestra " "ventadeproductospesaj clasedeteatro";
+.blue {
+  color: blue;
 }
 
-#section__fitness-campodedeportes {
-  grid-area: campo-deportes;
-  border: black;
+.yellow {
+  color: yellow;
 }
 
-#section__macabi-semuestra {
-  grid-area: macabi-semuestra;
-  padding: 20px;
+.black {
+  color: black;
 }
 
-#section__ventadeproductospesaj {
-  grid-area: ventadeproductospesaj;
-  padding: 20px;
+.section__imagenes-corriendo {
+  max-height: 400px;
 }
 
-#section__claseabiertadeteatro {
-  grid-area: clasedeteatro;
-  padding: 20px;
+.imagen-1 {
+  height: 400px;
 }
 /*# sourceMappingURL=main.css.map */

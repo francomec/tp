@@ -1,8 +1,11 @@
 /*~ navbar ~*/
 .tamaño-nav {
     height: 105px;
+    width: max-content;
+    position: fixed;
 }
 .tamaño-img {
     height: 100px;
     width: 100px;
+    background-size: auto;
 }
