@@ -1,11 +1,14 @@
 /*~ navbar ~*/
 .tamaño-nav {
     height: 105px;
-    width: max-content;
-    position: fixed;
+    padding-bottom: 30px !important ;
 }
 .tamaño-img {
     height: 100px;
     width: 100px;
     background-size: auto;
+}
+
+#ubicacion-nav {
+right: 0%;
 }

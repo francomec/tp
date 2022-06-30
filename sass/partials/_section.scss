@@ -1,15 +1,92 @@
 /*~ section ~*/
- 
-@each $color in blue, yellow, black  {
-   .#{$color} {
-      color: #{$color}
-   }
-} 
 
-.section__imagenes-corriendo {
-   max-height: 400px;
+
+
+.section__fitness-campodedeportes {
+    padding: 30px;
+    height: 590px;
+background: linear-gradient(to left , #0673f4, #ace3ff );
 }
 
-.imagen-1 {
-   height: 400px;
+.section__macabi-semuestra   {
+padding: 30px ;
+background: linear-gradient(to left , #06f4d9, #10acec );
+height: 590px;
+}
+
+.section__ventadeproductospesaj {
+    padding: 30px;
+    background: linear-gradient(to left , #0673f4, #ace3ff );
+    height: 590px;
+}
+
+.section-claseabiertadeteatro {
+    padding: 30px;
+    background: linear-gradient(to left , #06f4d9, #10acec );
+    
+}
+
+.section__asamblea-de-socios {
+    padding: 30px;
+    background: linear-gradient(to left , #0673f4, #ace3ff ); 
+    height: 525px;
+}
+
+.section__hockey {
+    padding: 30px;
+    background: linear-gradient(to left , #06f4d9, #10acec );
+}
+
+/*~ educacion fisica ~*/
+
+.section__educacionfisica {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left , #06f4d9, #10acec );
+    padding: 30px;
+}
+
+#section__educacionfisicaportada {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background: linear-gradient(to left , #06f4d9, #10acec );
+
+
+}
+
+@media screen and (max-width: 700px) {
+    
+    #section__educacionfisicaportada {
+        padding-left: 30px;
+    }
+
+
+}
+
+.section__educacionfisica-02 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 550px;
+    background: linear-gradient(to left , #06f4d9, #10acec );
+
+}
+
+/*~ noticias ~*/
+ #section__noticias {
+    padding-left: 200px;
+    height: 350px;
+}
+
+.card-img-top {
+    grid-area: noticia;
+}
+
+.noticias-03 {
+    grid-area: noticias;
+}
+
+.noti {
+    background: linear-gradient(to left , #06f4d9, #10acec );
 }
