@@ -1,0 +1,17 @@
+ /*~footer~*/
+    .footer {
+      height: 400px;
+ 
+      &-1 {
+        background-image: url(../imagenes/footer-prueba-02.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 400px;
+        height: 400px;
+    
+       &-text {
+        background-image: none;
+       }
+    }

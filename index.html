@@ -5,31 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sass/main.css">
-    <link rel="icon" href="../tp3/imagenes/600px-Star_of_David.svg.png">
+    <link rel="icon" href="../proyecto/imagenes/600px-Star_of_David.svg.png">
     <title>Macabi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-   <div class="conteiner"> 
-     <div class="row tamaño-nav">
+   <div class="container"> 
+     <div class="row">
         <div class="col-12"> 
           <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid ">
-               <img class="img.fluid tamaño-img" src="../proyecto/imagenes/600px-Star_of_David.svg.png" alt="logo" height="100px" width="100px">
+               <img class="img.fluid tamaño-img" src="../proyecto/imagenes/600px-Star_of_David.svg.png" alt="logo">
                <a class="navbar-brand" href="">Macabi</a>
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
                  </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown ubicacion-nav">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                      <li class="nav-item">
                      <a class="nav-link active" aria-current="page" href="#">Home</a>
                      </li>
                      <li class="nav-item">
-                       <a class="nav-link" href="../proyecto/paginas/educacionfisica.html"> Educacion Fisica</a>
+                       <a class="nav-link" href="./paginas/educacionfisica.html"> Educacion Fisica</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="../proyecto/paginas/noticias.html"> Noticias</a>
+                      <a class="nav-link" href="./paginas/noticias.html"> Noticias</a>
                    </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,7 +49,7 @@
      </div>   
      <div class="row">
          <div class="col-md-4">
-            <section class="section__fitness-campodedeportes">
+            <section class="section__fitness-campodedeportes scale-in-center">
                <b><h5> Fitness en campo de deportes</h5></b>
                <img src="./imagenes/fitness en campo de deportes.jpg" alt="fitness campo de deportes"  class="imagen-portadaedu">
                <p>Hacé fitness en Campo de Deportes el sábado y domingo. 
@@ -60,8 +60,8 @@
                </p>
             </section>
           </div>    
-         <div class="col-md-4"> 
-          <section class="section__macabi-semuestra">
+         <div class="col-md-4 "> 
+          <section class="section__macabi-semuestra scale-in-center">
              <h5><b>Macabi se muestra</b></h5>
              <img src="./imagenes/macabi se muestra.jpg" alt="macabi se muestra" class="imagen-portadaedu">
              <p><b>AGENDATE</b>
@@ -75,7 +75,7 @@
           </section>
          </div>  
          <div class="col-md-4">   
-           <section class="section__ventadeproductospesaj">
+           <section class="section__ventadeproductospesaj scale-in-center">
              <h5><b>venta de productos pesaj</b></h5>
              <img class="imagen-02" src="./imagenes/vemta de productos pesaj.jpg" alt="venta de productos pesaj" >
              <p><b>Hoy último día de precios de preventa, apurate y comprá!!!</b>
@@ -96,7 +96,7 @@
       </div> 
       <div class="row">   
         <div class="col-md-4"> 
-          <section class="section-claseabiertadeteatro">
+          <section class="section-claseabiertadeteatro scale-in-center">
            <h5> Clase abierta de teatro</h5>
            <img src="./imagenes/clase abierta de teatro.jpg" alt="clase abierta de teatro " class="imagen-portadaedu">
            <p> <b>¡CLASE ABIERTA Y GRATUITA DE TEATRO!</b>
@@ -119,14 +119,14 @@
           </section>
         </div> 
         <div class="col-md-4"> 
-         <section class="section__asamblea-de-socios">
+         <section class="section__asamblea-de-socios scale-in-center">
           <h5> Asamblea general de socios</h5>
           <img src="./imagenes/imagen-03.jpg"  alt="asamblea general de socios" class="imagen-portadaedu">
           <p> Te invitamos a participar de la Asamblea General Ordinaria de Socios que se realizará vía ZOOM el miércoles 16 de marzo 2022 a las 19hs. </p>
          </section>
         </div>       
         <div class="col-md-4"> 
-          <section class="section__hockey">
+          <section class="section__hockey scale-in-center">
            <div class="card w-100" style="width: 18rem;">
              <img src="./imagenes/hockey.jpeg" class="card-img-top" alt="hockey">
              <div class="card-body">
@@ -138,13 +138,18 @@
           </section>
         </div>
       </div>
-    </div>         
+            
     
-    <div class="row">  
-      <footer> 
-       
-      </footer> 
-    </div>  
+     <div class="row">  
+       <footer class="footer"> 
+         <h4> seguinos por nuestras redes sociales</h4>
+          <div class="footer-1">
+             <p class="footer-text"> Instagram <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum laudantium iusto commodi minima saepe! In minus laboriosam maiores error, consequuntur voluptates <br> similique fugiat magnam? Ab deserunt <br> <br>corrupti omnis perspiciatis maiores?<p>
+
+          </div>
+       </footer> 
+     </div>  
+   </div> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>

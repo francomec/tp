@@ -42,7 +42,6 @@ height: 590px;
 .section__educacionfisica {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to left , #06f4d9, #10acec );
     padding: 30px;
 }
 
@@ -50,7 +49,6 @@ height: 590px;
     display: flex;
     justify-content: center;
     height: 500px;
-    background: linear-gradient(to left , #06f4d9, #10acec );
 
 
 }
@@ -69,7 +67,6 @@ height: 590px;
     justify-content: center;
     padding: 30px;
     height: 550px;
-    background: linear-gradient(to left , #06f4d9, #10acec );
 
 }
 
@@ -77,8 +74,18 @@ height: 590px;
  #section__noticias {
     padding-left: 200px;
     height: 350px;
+    
 }
 
+@media screen and (max-width: 700px) {
+    
+    #section__noticias {
+        padding-left: 30px;
+    }
+
+}
+
+  
 .card-img-top {
     grid-area: noticia;
 }
@@ -87,6 +94,7 @@ height: 590px;
     grid-area: noticias;
 }
 
-.noti {
-    background: linear-gradient(to left , #06f4d9, #10acec );
-}
+
+ .container {
+    background: linear-gradient(to left , #06f4d9, #10acec ); 
+ }
